@@ -35,7 +35,7 @@ function NavBar() {
               toggle ? styles.navMove : styles.displayNav
             }`}
           >
-            <aside className="col-12 d-flex flex-column flex-lg-row  align-items-center justify-content-between">
+            <aside className="col-12 d-flex flex-column flex-lg-row  align-items-center justify-content-around">
               {/* nav Links */}
               <section className="col-12 col-lg-6 d-flex justify-content-start ">
                 <div
@@ -70,7 +70,7 @@ function NavBar() {
               </section>
 
               {/* profile and btn */}
-              <section className="col-12 col-lg-5 d-flex justify-content-between ">
+              <section className="col-12 col-lg-5 d-flex flex-column flex-lg-row justify-content-between ">
                 <button
                   data-aos="fade-left"
                   data-aos-duration="1500"
