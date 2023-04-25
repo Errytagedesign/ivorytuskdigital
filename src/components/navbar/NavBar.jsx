@@ -71,18 +71,30 @@ function NavBar() {
 
               {/* profile and btn */}
               <section className="col-12 col-lg-5 d-flex justify-content-between ">
-                <button className="main-btn ">
+                <button
+                  data-aos="fade-left"
+                  data-aos-duration="1500"
+                  className="main-btn "
+                >
                   <p>
                     <Image src={Lunch} alt="" />
                   </p>
                 </button>
 
-                <button className="main-btn ">
+                <button
+                  data-aos="fade-left"
+                  data-aos-duration="1500"
+                  className="main-btn "
+                >
                   <p>
                     <Image src={Elephant} alt="" />
                   </p>
                 </button>
-                <button className="main-btn ">
+                <button
+                  data-aos="fade-left"
+                  data-aos-duration="1500"
+                  className="main-btn "
+                >
                   <p>
                     {" "}
                     {/* {account

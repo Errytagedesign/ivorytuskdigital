@@ -15,4 +15,31 @@
       }
     }
   }
+
+  .follow {
+    margin: 100px auto;
+    .names {
+      border: solid 1px var(--lightGrey);
+      border-radius: 10px;
+      padding: 0.2em 0.5em;
+      cursor: pointer;
+
+      &:hover {
+        background: #00bac6;
+      }
+      p {
+        margin: 0;
+        font-size: 15px;
+      }
+    }
+    .brands {
+      background: #15171c;
+      padding: 40px;
+      border-radius: 10px;
+
+      button {
+        margin-top: 0.8em;
+      }
+    }
+  }
 }

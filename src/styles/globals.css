@@ -42,6 +42,7 @@ button {
   color: var(--white);
   font-size: var(--fontMed);
   font-weight: 600;
+  cursor: pointer;
 }
 .main-btn p {
   background: var(--mainColor);
@@ -55,10 +56,15 @@ button {
   color: var(--lightGrey);
   border-radius: 8px;
   padding: 8px 40px;
-  font-size: var(--fontSmall);
+  font-size: 14px;
   font-weight: 400;
+  background: transparent;
+  cursor: pointer;
 }
 
+.grey-btn:hover {
+  background: #00bac6;
+}
 /* ==== Button End==== */
 
 /* ==== Typography Start==== */
