@@ -1,0 +1,90 @@
+.about {
+  background: var(--darkPurple);
+  // padding: 100px 0px;
+  margin: 0 auto;
+
+  // @media screen and (max-width: 900px) {
+  //   padding: 60px 0px;
+  // }
+
+  .heroContainer {
+    padding: 100px auto;
+    color: var(--white);
+    .ImageContainer {
+      margin-top: 40px;
+      width: 100%;
+      img {
+        object-fit: cover;
+        width: 100%;
+        // position: relative;
+        // height: unset !important;
+      }
+    }
+
+    // @media screen and (max-width: 500px) {
+    //   padding: 30px;
+    //   // height: 165px;
+
+    //   // h2 {
+    //   //   font-size: 24px;
+    //   // }
+    // }
+  }
+  .body {
+    color: var(--white);
+
+    @media screen and (max-width: 900px) {
+      text-align: center;
+    }
+
+    .goalsContainer {
+      margin: 60px auto;
+      padding: 5em;
+      background: linear-gradient(
+        124.97deg,
+        rgba(235, 0, 255, 0.2) 19.11%,
+        rgba(0, 186, 198, 0.2) 100.21%
+      );
+      p {
+        font-size: 16px;
+        font-weight: 400;
+      }
+      @media screen and (max-width: 900px) {
+        padding: 1em;
+      }
+      img {
+        object-fit: cover;
+        width: 100%;
+        // position: relative;
+        // height: unset !important;
+      }
+      // aside {
+      //   // width: 100%;
+      // }
+    }
+
+    .teamContainer {
+      margin: 200px auto;
+
+      // .teamWrap {
+      //   background-color: #d9d9d924;
+
+      //   padding: 30px;
+      //   border-radius: 40px;
+      // }
+
+      .teamCardContainer {
+        margin-top: 1.5em;
+        .teamPic {
+          background: var(--grad);
+          padding: 2em;
+          margin-bottom: 40px;
+          img {
+            width: 236px;
+            height: 356px;
+          }
+        }
+      }
+    }
+  }
+}
